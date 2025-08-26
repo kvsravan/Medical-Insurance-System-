@@ -1,4 +1,3 @@
-
 # 🏥 Medical Insurance Fraud Detection System Using Python
 
 This project aims to detect fraudulent medical insurance claims using machine learning techniques. It helps insurance companies reduce financial losses and improve claim processing efficiency.
@@ -38,18 +37,26 @@ This project aims to detect fraudulent medical insurance claims using machine le
 
 ## 🤖 Machine Learning Models
 
+### Classification Models
 | Model              | Description                                  |
 |-------------------|----------------------------------------------|
 | **XGBoost**        | High-performance gradient boosting           |
 | **SVM**            | Classifies claims as fraudulent or not       |
-| **Random Forest**  | Robust ensemble method                       |
+| **Random Forest Classifier**  | Robust ensemble method             |
 | **Logistic Regression** | Baseline binary classifier             |
 
+### Regression Models
+| Model                     | Description                                                  |
+|--------------------------|--------------------------------------------------------------|
+| **Linear Regression**     | Predicts claim amounts based on linear relationships         |
+| **Polynomial Regression** | Captures non-linear trends in claim data                    |
+| **Decision Tree Regression** | Tree-based model for predicting claim values             |
+| **Random Forest Regression** | Ensemble of decision trees for robust regression         |
+
 ### Evaluation Metrics
-- Accuracy
-- Precision
-- Recall
-- F1-Score
+- Accuracy (for classification)
+- Precision, Recall, F1-Score
+- Mean Squared Error (MSE) and R² Score (for regression)
 
 ---
 
